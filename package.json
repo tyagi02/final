@@ -1,0 +1,54 @@
+{
+    "name": "university-info-portal",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.2",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "animate.css": "^4.1.1",
+        "jquery": "^3.6.1",
+        "popper.js": "^1.16.1",
+        "primeicons": "^6.0.1",
+        "primereact": "^8.6.1",
+        "react": "^17.0.2",
+        "react-bootstrap": "^2.4.0",
+        "react-dom": "^17.0.2",
+        "react-js-pagination": "^3.0.3",
+        "react-paginate": "^8.1.2",
+        "vite-tsconfig-paths": "^4.2.1",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@vitejs/plugin-react": "^4.1.0",
+        "@vitejs/plugin-react-swc": "^3.4.0",
+        "bootstrap": "^5.2.2",
+        "bootstrap-icons": "^1.9.1",
+        "vite": "^4.5.0",
+        "vite-plugin-svgr": "^4.1.0"
+    }
+}

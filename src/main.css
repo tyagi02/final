@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+/*NavBar header*/
+
+#nav {
+    min-height: 70px;
+    font-weight: lighter;
+}
+
+.nav-brand {
+    font-size: 1.1em;
+}
+
+#nav .nav-link {
+    font-size: 1.2em;
+}
+
+.section {
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+
+/*Hero Section*/
+
+#heroSection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1406888053/photo/a-group-of-cheerful-people-at-graduation-holding-diplomas-or-certificates-up-together-and.jpg?s=612x612&w=0&k=20&c=8LRkx77cpb1clqj2tHqOY--uO8Mj6DB8Qd1Y3RdDRyQ=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+}
+
+
+/* Place text in the middle of the image */
+
+.hero-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-subtitle {
+    font-size: 1.1em;
+    font-style: italic;
+    color: rgb(234, 228, 228);
+}
+
+
+/*app section*/
+
+.search-panel .input-group>* {
+    border-radius: 50px !important;
+}
+
+.search-panel .input-group button {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    z-index: 5;
+    display: block;
+}
+
+
+/*Footer*/
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background: white;
+}
+
+.socials a {
+    margin-right: 5px;
+}
